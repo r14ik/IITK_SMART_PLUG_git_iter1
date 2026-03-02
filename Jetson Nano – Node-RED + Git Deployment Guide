@@ -1,0 +1,146 @@
+Jetson Nano – Node-RED + Git Deployment Guide
+
+1. System Overview
+Development nodes (Raspberry Pis)
+Run Node‑RED, 
+Developers modify flows and configs
+Changes are pushed to GitHub
+Deployment node (Jetson Nano)
+Pulls configuration from GitHub
+Runs Node‑RED as a system service
+
+
+2. Jetson Nano Base Setup
+2.1 OS
+Ubuntu (JetPack / L4T based)
+2.2  terminal with usb- c type
+ls /dev/ttyACM* take the output from this 
+sudo minicom -D /dev/ttyACM0 -b 115200
+
+2.3 Network
+Wi‑Fi configured via nmcli
+Internet access verified before continuing
+
+3. Node.js & Node‑RED
+3.1 Node Versions
+Node.js: v20.x
+Node‑RED: v4.x
+This combination is required because Node‑RED v4 does not support Node.js 18.
+For installation :bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered) 
+3.2 Node‑RED Installation
+Node‑RED is installed using the official Linux installer:
+Installed system‑wide
+Runs as a systemd service
+Autostarts on boot
+3.3 Service Commands
+node-red-start     # start service
+node-red-stop      # stop service
+node-red-restart   # restart service
+node-red-log       # view logs
+
+
+4. Node‑RED Directory Structure
+Node‑RED user directory:
+/home/smartplug/.node-red/
+
+Important files:
+File
+Purpose
+Git
+flows.json
+Node‑RED flows
+✅ Commit
+settings.js
+Runtime settings
+✅ Commit
+package.json
+Node dependencies
+✅ Commit
+package-lock.json
+Locked deps
+✅ Commit
+flows_cred.json
+Encrypted credentials
+❌ Ignore
+node_modules/
+Installed modules
+❌ Ignore
+
+
+5. Credential Security (IMPORTANT)
+5.1 Why
+Node‑RED encrypts credentials (MQTT passwords, DB tokens, etc.).
+If the encryption key changes, credentials are lost permanently.
+5.2 Configuration
+Edit:
+nano ~/.node-red/settings.js
+
+Enable a fixed secret:
+credentialSecret: "jetson-nodered-prod-secret",
+I set “smartplug”
+Rules:
+Set once
+Never change after deployment
+Do NOT commit secrets to Git
+Restart Node‑RED after change:
+node-red-restart
+
+
+6. Git Integration
+6.1 Repository
+git@github.com:r14ik/IITK_SMART_PLUG_git_iter1.git
+
+6.2 SSH Authentication
+Generate key:
+ssh-keygen -t ed25519 -C "jetson-nodered"
+
+Add public key to GitHub
+Verify:
+ssh -T git@github.com
+
+
+7. Cloning Repo into Node‑RED
+7.1 Stop Node‑RED
+node-red-stop
+
+7.2 Backup Existing Files
+mkdir ~/node-red-backup
+cp -r ~/.node-red/* ~/node-red-backup/
+
+7.3 Clone Repo
+rm -rf ~/.node-red
+git clone git@github.com:r14ik/IITK_SMART_PLUG_git_iter1.git ~/.node-red
+
+Verify:
+cd ~/.node-red
+git status
+
+
+8. Git Ignore Rules (CRITICAL)
+Create .gitignore inside ~/.node-red:
+node_modules/
+.context/
+lib/
+*.log
+.config.runtime.json
+flows_cred.json
+
+Commit once:
+git add .gitignore
+git commit -m "Add Node-RED gitignore"
+git push
+
+
+9. Runtime Workflow
+9.1 On Raspberry Pi (Development)
+Edit flows
+Export / save flows.json
+Commit & push to GitHub
+9.2 On Jetson (Deployment)
+cd ~/.node-red
+git pull
+node-red-restart
+
+Always restart Node‑RED after pulling changes.
+
+
