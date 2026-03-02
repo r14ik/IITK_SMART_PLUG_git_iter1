@@ -139,6 +139,47 @@ Test manually:
 Open cron:
 crontab -e
 Add:
+
+
+
+*version control*
+
+
+
+1. View history of all flow changes
+git log
+Example output:
+commit 8a21c3...
+Author: Ashutosh
+Date: ...
+
+update flows
+You can see every modification ever made.
+
+2. See exactly what changed between versions
+git diff
+or between commits:
+git diff <commit1> <commit2>
+This shows which nodes or JSON sections changed inside flows.
+
+3. Restore an older version of flows
+Example:
+git checkout <commit-id> -- device1/flows.json
+This lets you roll back Node-RED to a previous working configuration.
+Very useful if a deployment breaks something.
+
+4. Recover deleted flows
+Even if you accidentally delete flows:
+git checkout HEAD -- device1/flows.json
+Git restores them instantly.
+
+5. Track which device changed what
+Because each device commits independently, history shows:
+update flows (device1)
+update flows (device2)
+So you can identify where a change originated.
+
+
 */5 * * * * ~/push_flows.sh
 Flows will sync every 5 minutes.
 
