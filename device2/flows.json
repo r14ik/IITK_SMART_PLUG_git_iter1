@@ -1,0 +1,5462 @@
+[
+    {
+        "id": "c1a91b07de14642d",
+        "type": "tab",
+        "label": "Flow 13",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fdef5db5c37c5f79",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ee070f8a105fc9d5",
+        "type": "tab",
+        "label": "Flow 12",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2f29450ec20600d7",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ca34fae7ff981d98",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "484f8371c2ed855b",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d295edba74450a5f",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "093bb4bd0d4e1026",
+        "type": "tab",
+        "label": "Flow 6",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "75b3ef0eecdd018f",
+        "type": "tab",
+        "label": "Flow 7",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "457e702e22086401",
+        "type": "tab",
+        "label": "Flow 8",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "91b965277fed4a96",
+        "type": "tab",
+        "label": "Flow 9",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "df2c8544cd1e8c02",
+        "type": "tab",
+        "label": "Flow 10",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7ae2f0cac87ded1d",
+        "type": "tab",
+        "label": "Flow 11",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "110fcdbdd211693c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.0.12",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b3f816bf3eb3b429",
+        "type": "ui_tab",
+        "name": "smartgrid",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0e674185a5613f82",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "14406e376a115059",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "b3f816bf3eb3b429",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "d97d7896fe527a05",
+        "type": "mqtt out",
+        "z": "c1a91b07de14642d",
+        "name": "",
+        "topic": "painlessMesh/to/3664173845",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 920,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "aabf268fe64f8eeb",
+        "type": "inject",
+        "z": "c1a91b07de14642d",
+        "name": "State 1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":23}}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "d97d7896fe527a05"
+            ]
+        ]
+    },
+    {
+        "id": "472ed84dd3ab1302",
+        "type": "inject",
+        "z": "c1a91b07de14642d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"by_pass\":0}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 420,
+        "wires": [
+            [
+                "d97d7896fe527a05"
+            ]
+        ]
+    },
+    {
+        "id": "32e2cf5b82d434af",
+        "type": "inject",
+        "z": "c1a91b07de14642d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"switch\":1}",
+        "payloadType": "json",
+        "x": 260,
+        "y": 560,
+        "wires": [
+            [
+                "d97d7896fe527a05"
+            ]
+        ]
+    },
+    {
+        "id": "0140cf311f27d055",
+        "type": "inject",
+        "z": "c1a91b07de14642d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"switch\":0}",
+        "payloadType": "json",
+        "x": 260,
+        "y": 640,
+        "wires": [
+            [
+                "d97d7896fe527a05"
+            ]
+        ]
+    },
+    {
+        "id": "2bc21a91ec6495ec",
+        "type": "inject",
+        "z": "c1a91b07de14642d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"by_pass\":1}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 480,
+        "wires": [
+            [
+                "d97d7896fe527a05"
+            ]
+        ]
+    },
+    {
+        "id": "3ab0086e1166685f",
+        "type": "inject",
+        "z": "c1a91b07de14642d",
+        "name": "State 0",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":0,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":23}}",
+        "payloadType": "json",
+        "x": 250,
+        "y": 340,
+        "wires": [
+            [
+                "d97d7896fe527a05"
+            ]
+        ]
+    },
+    {
+        "id": "90e5b623605117ee",
+        "type": "mqtt in",
+        "z": "c1a91b07de14642d",
+        "name": "",
+        "topic": "painlessMesh/from/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 270,
+        "y": 100,
+        "wires": [
+            [
+                "c47b62a1a69006d5"
+            ]
+        ]
+    },
+    {
+        "id": "c47b62a1a69006d5",
+        "type": "debug",
+        "z": "c1a91b07de14642d",
+        "name": "debug 31",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c5e8b947914f0572",
+        "type": "debug",
+        "z": "fdef5db5c37c5f79",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "bd7ada95c4408ced",
+        "type": "mqtt in",
+        "z": "fdef5db5c37c5f79",
+        "name": "",
+        "topic": "painlessMesh/from/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 290,
+        "y": 120,
+        "wires": [
+            [
+                "5fc7236adbc72d20",
+                "79bb6c3783a5e7de",
+                "c5e8b947914f0572"
+            ]
+        ]
+    },
+    {
+        "id": "ba5537775b611557",
+        "type": "mqtt out",
+        "z": "fdef5db5c37c5f79",
+        "name": "",
+        "topic": "painlessMesh/to/3664173845",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 440,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f66e53574f69ea53",
+        "type": "inject",
+        "z": "fdef5db5c37c5f79",
+        "name": "State 1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":23}}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "ba5537775b611557"
+            ]
+        ]
+    },
+    {
+        "id": "160517305dbf929b",
+        "type": "inject",
+        "z": "fdef5db5c37c5f79",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 340,
+        "y": 440,
+        "wires": [
+            [
+                "2ae63180c4266430"
+            ]
+        ]
+    },
+    {
+        "id": "2ae63180c4266430",
+        "type": "exec",
+        "z": "fdef5db5c37c5f79",
+        "command": "python ./metermodbus.py -u",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 580,
+        "y": 420,
+        "wires": [
+            [
+                "d9938c3c349a362a"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "435410f67d1d23da",
+        "type": "debug",
+        "z": "fdef5db5c37c5f79",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "5fc7236adbc72d20",
+        "type": "function",
+        "z": "fdef5db5c37c5f79",
+        "name": "function 1",
+        "func": "let p = msg.payload;\nnode.log(typeof p);\nmsg.payload = p.power;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9938c3c349a362a",
+        "type": "python3-function",
+        "z": "fdef5db5c37c5f79",
+        "name": "",
+        "func": "import ast\nimport re\n\nraw = msg['payload']\n\n# 1. Regex to extract datetime parts and replace with a string \"YYYY-MM-DDTHH:MM:SS.ssssss\"\ndef dt_replace(match):\n    # Groups: year, month, day, hour, minute, second, microsecond\n    parts = match.groups()\n    iso_str = f'\"{int(parts[0]):04d}-{int(parts[1]):02d}-{int(parts[2]):02d}T{int(parts[3]):02d}:{int(parts[4]):02d}:{int(parts[5]):02d}.{int(parts[6]):06d}\"'\n    return iso_str\n\n# Substitute datetime.datetime(...) with ISO format string in double quotes\npattern = r\"datetime\\.datetime\\((\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+)\\)\"\nraw2 = re.sub(pattern, dt_replace, raw)\n\ntry:\n    data = ast.literal_eval(raw2)\nexcept Exception as e:\n    msg['payload'] = {\"error\": f\"literal_eval failed: {str(e)}\", \"input\": raw2}\n    msg['topic'] = \"db\"\n    return msg\n\n# TimeStamp is now a string\nts_str = data.get('TimeStamp', '')\n\nnames = data.get('Name', [])\nvalues = data.get('Value', [])\n\ndef get_val(label):\n    try:\n        idx = names.index(label)\n        return values[idx]\n    except (ValueError, IndexError):\n        return None\n\nresult = {\n    \"timestamp\": ts_str,\n    \"voltage\": get_val('voltage'),\n    \"current\": get_val('cur'),\n    \"power\": get_val('power')\n}\n\nmsg['payload'] = result\nmsg['topic'] = \"db\"\nreturn msg\n\n",
+        "outputs": 1,
+        "x": 670,
+        "y": 360,
+        "wires": [
+            [
+                "08426038ac72991d"
+            ]
+        ]
+    },
+    {
+        "id": "153f45eb2dbeb6bd",
+        "type": "function",
+        "z": "fdef5db5c37c5f79",
+        "name": "function 2",
+        "func": "let p = msg.payload;\nmsg.payload = {\n    timestamp: p.timestamp,\n    voltage: p.voltage || \"\",\n    current: p.current || \"\",\n    pf: p.pf || \"\",\n    power: \"\",\n    source: \"usb\"\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79bb6c3783a5e7de",
+        "type": "function",
+        "z": "fdef5db5c37c5f79",
+        "name": "function 3",
+        "func": "msg.topic = \"plug\";\nlet p = msg.payload;\nmsg.payload = {\n    voltage: p.volt || \"\",\n    current: p.amps || \"\",\n    power: p.power || \"\",\n    source: \"mqtt\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 200,
+        "wires": [
+            [
+                "08426038ac72991d"
+            ]
+        ]
+    },
+    {
+        "id": "2979092dd70348a9",
+        "type": "csv",
+        "z": "fdef5db5c37c5f79",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 910,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c5a47d628c41add5",
+        "type": "file",
+        "z": "fdef5db5c37c5f79",
+        "name": "Power Measurement",
+        "filename": "/home/admin/log.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 1080,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "08426038ac72991d",
+        "type": "join",
+        "z": "fdef5db5c37c5f79",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 890,
+        "y": 380,
+        "wires": [
+            [
+                "435410f67d1d23da",
+                "7fbcef52429eef7e"
+            ]
+        ]
+    },
+    {
+        "id": "57fa7f2fd6539021",
+        "type": "function",
+        "z": "fdef5db5c37c5f79",
+        "name": "function 4",
+        "func": "// 'msg.payload' is now an object like { usb: {...}, plug: {...} }\nlet usb = msg.payload.usb || {};\nlet plug = msg.payload.plug || {};\n\nmsg.payload = {\n    timestamp: usb.timestamp || plug.timestamp || new Date().toISOString(),\n    usb_voltage: usb.voltage || \"\",\n    usb_current: usb.current || \"\",\n    usb_power: usb.power || \"\",\n    plug_voltage: plug.voltage || \"\",\n    plug_current: plug.current || \"\",\n    plug_power: plug.power || \"\",\n        // You can add more as needed\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fbcef52429eef7e",
+        "type": "function",
+        "z": "fdef5db5c37c5f79",
+        "name": "function 5",
+        "func": "const plug = msg.payload.plug;\nconst db = msg.payload.db;\n\nconst row = [\n    db.timestamp,\n    plug.voltage,\n    plug.current,\n    plug.power,\n    db.voltage,\n    db.current,\n    db.power\n];\n\nmsg.payload = row.join(\",\") + \"\\n\";  // One line of CSV\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 340,
+        "wires": [
+            [
+                "c5a47d628c41add5"
+            ]
+        ]
+    },
+    {
+        "id": "3c3e532584635c1d",
+        "type": "inject",
+        "z": "fdef5db5c37c5f79",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"by_pass\":0}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "ba5537775b611557"
+            ]
+        ]
+    },
+    {
+        "id": "8a95e49acb8e8e2e",
+        "type": "inject",
+        "z": "fdef5db5c37c5f79",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"switch\":1}",
+        "payloadType": "json",
+        "x": 120,
+        "y": 420,
+        "wires": [
+            [
+                "ba5537775b611557"
+            ]
+        ]
+    },
+    {
+        "id": "9ffd20a7866fedb0",
+        "type": "inject",
+        "z": "fdef5db5c37c5f79",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"switch\":0}",
+        "payloadType": "json",
+        "x": 120,
+        "y": 480,
+        "wires": [
+            [
+                "ba5537775b611557"
+            ]
+        ]
+    },
+    {
+        "id": "81f049d275937797",
+        "type": "inject",
+        "z": "fdef5db5c37c5f79",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"by_pass\":1}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [
+                "ba5537775b611557"
+            ]
+        ]
+    },
+    {
+        "id": "2aa61c8081ea7285",
+        "type": "inject",
+        "z": "fdef5db5c37c5f79",
+        "name": "State 0",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":0,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":23}}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "ba5537775b611557"
+            ]
+        ]
+    },
+    {
+        "id": "c17501c437ac0ceb",
+        "type": "mqtt out",
+        "z": "fdef5db5c37c5f79",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 770,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "a887db5f7feef914",
+        "type": "inject",
+        "z": "fdef5db5c37c5f79",
+        "name": "Allow",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":23}}",
+        "payloadType": "json",
+        "x": 350,
+        "y": 680,
+        "wires": [
+            [
+                "376d1dfaf80b4834"
+            ]
+        ]
+    },
+    {
+        "id": "376d1dfaf80b4834",
+        "type": "function",
+        "z": "fdef5db5c37c5f79",
+        "name": "Devicename",
+        "func": "var NodeID= global.get(\"nodeid3\");\nmsg.topic= \"painlessMesh/to/\"+ NodeID;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 680,
+        "wires": [
+            [
+                "c17501c437ac0ceb",
+                "f71aeac315ff3412"
+            ]
+        ]
+    },
+    {
+        "id": "f71aeac315ff3412",
+        "type": "debug",
+        "z": "fdef5db5c37c5f79",
+        "name": "debug 30",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "6fcddb37203da31d",
+        "type": "inject",
+        "z": "fdef5db5c37c5f79",
+        "name": "Not Allow",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":0,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":23}}",
+        "payloadType": "json",
+        "x": 340,
+        "y": 740,
+        "wires": [
+            [
+                "376d1dfaf80b4834"
+            ]
+        ]
+    },
+    {
+        "id": "ceb8933ad9759c94",
+        "type": "debug",
+        "z": "ee070f8a105fc9d5",
+        "name": "debug 28",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "b3fc737ada689b63",
+        "type": "mqtt in",
+        "z": "ee070f8a105fc9d5",
+        "name": "",
+        "topic": "painlessMesh/from/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 210,
+        "y": 140,
+        "wires": [
+            [
+                "46683bb895413c7f",
+                "ceb8933ad9759c94"
+            ]
+        ]
+    },
+    {
+        "id": "46683bb895413c7f",
+        "type": "function",
+        "z": "ee070f8a105fc9d5",
+        "name": "function 36",
+        "func": "let p = msg.payload;\nnode.log(typeof p);\nmsg.payload = p.power;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e310f88b521e8342",
+        "type": "json",
+        "z": "ee070f8a105fc9d5",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 390,
+        "y": 320,
+        "wires": [
+            [
+                "5c8c3579b21f2e86"
+            ]
+        ]
+    },
+    {
+        "id": "50b74fd54aa30fb7",
+        "type": "mqtt in",
+        "z": "ee070f8a105fc9d5",
+        "name": "",
+        "topic": "painlessMesh/from/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "e310f88b521e8342"
+            ]
+        ]
+    },
+    {
+        "id": "5c8c3579b21f2e86",
+        "type": "function",
+        "z": "ee070f8a105fc9d5",
+        "name": "Node 3",
+        "func": "p = msg.payload;\nnode.log(typeof p);\nn=p.node;\n    if (n==3){\n    //msg.payload=p.NodeID;\n    global.set(\"nodeid3\" , p.NodeID);\n    msg.payload=p;\n    return msg;\n    }\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 7,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 280,
+        "wires": [
+            [
+                "634fea3878018afd"
+            ]
+        ]
+    },
+    {
+        "id": "5bbdbdd0f82a629e",
+        "type": "function",
+        "z": "ee070f8a105fc9d5",
+        "name": "Global(nodeid)",
+        "func": "p = msg.payload;\nnode.log(typeof p);\nn=p.node;\nif (n==2)\n{\n    msg.payload=p.NodeID;\n    global.set(\"nodeid2\" , msg.payload);\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 6,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "634fea3878018afd",
+        "type": "debug",
+        "z": "ee070f8a105fc9d5",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "cb3330373c779391",
+        "type": "function",
+        "z": "ee070f8a105fc9d5",
+        "name": "function 37",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c81fc39519d3f72",
+        "type": "inject",
+        "z": "2f29450ec20600d7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": ".2",
+        "topic": "",
+        "payload": "ping",
+        "payloadType": "str",
+        "x": 370,
+        "y": 140,
+        "wires": [
+            [
+                "518f9c3d6c3a34dd",
+                "0b3f2e3817807223"
+            ]
+        ]
+    },
+    {
+        "id": "95ea90fd6d2ed6f0",
+        "type": "mqtt in",
+        "z": "2f29450ec20600d7",
+        "name": "",
+        "topic": "painlessMesh/from/gateway",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 500,
+        "y": 240,
+        "wires": [
+            [
+                "0b3f2e3817807223"
+            ]
+        ]
+    },
+    {
+        "id": "518f9c3d6c3a34dd",
+        "type": "mqtt out",
+        "z": "2f29450ec20600d7",
+        "name": "",
+        "topic": "painlessMesh/to/3664174173",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 720,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "0b3f2e3817807223",
+        "type": "debug",
+        "z": "2f29450ec20600d7",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "a103cc0e0b4c647c",
+        "type": "mqtt out",
+        "z": "2f29450ec20600d7",
+        "name": "",
+        "topic": "painlessMesh/to/485306721",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 820,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "109b3b6b16144c05",
+        "type": "inject",
+        "z": "2f29450ec20600d7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ping",
+        "payloadType": "str",
+        "x": 450,
+        "y": 340,
+        "wires": [
+            [
+                "a103cc0e0b4c647c"
+            ]
+        ]
+    },
+    {
+        "id": "e913df7074efdbe6",
+        "type": "inject",
+        "z": "2f29450ec20600d7",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ping",
+        "payloadType": "str",
+        "x": 450,
+        "y": 460,
+        "wires": [
+            [
+                "70b5ab35f40d203d"
+            ]
+        ]
+    },
+    {
+        "id": "70b5ab35f40d203d",
+        "type": "mqtt out",
+        "z": "2f29450ec20600d7",
+        "name": "",
+        "topic": "painlessMesh/to/3661630668",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 780,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b8afbd3c503dfae3",
+        "type": "mqtt out",
+        "z": "2f29450ec20600d7",
+        "name": "",
+        "topic": "painlessMesh/to/gateway",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 750,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "d97422d7300ab59d",
+        "type": "inject",
+        "z": "2f29450ec20600d7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "pingAll",
+        "payloadType": "str",
+        "x": 410,
+        "y": 660,
+        "wires": [
+            [
+                "28b2d4a2bf288c7a"
+            ]
+        ]
+    },
+    {
+        "id": "28b2d4a2bf288c7a",
+        "type": "mqtt out",
+        "z": "2f29450ec20600d7",
+        "name": "",
+        "topic": "painlessMesh/to/gateway",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 810,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "8f79f8be46c4e494",
+        "type": "inject",
+        "z": "2f29450ec20600d7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "getTree",
+        "payloadType": "str",
+        "x": 410,
+        "y": 540,
+        "wires": [
+            [
+                "b8afbd3c503dfae3"
+            ]
+        ]
+    },
+    {
+        "id": "5dd26b365a3a2bfe",
+        "type": "function",
+        "z": "ca34fae7ff981d98",
+        "name": "function 6",
+        "func": "let contextCount = context.get('counter') || 0;\ncontextCount += 1;\ncontext.set('counter', contextCount);\n\n// Clean and inspect payload\nlet payload = (msg.payload || \"\").toString().trim();\nconsole.log(\"Raw payload:\", JSON.stringify(payload));  // Debug output\n\nlet topic = msg.topic || \"\";\n\n// Extract node ID\nlet nodeMatch = payload.match(/node\\s+(\\d+)/i);\nlet nodeId = nodeMatch && nodeMatch[1] ? nodeMatch[1] : topic.split(\"/\").pop();\n\n// Flexible RTT match\nlet rttMatch = payload.match(/RTT\\s*=\\s*([\\d]+)/i);  // Handles newline or tab after '='\nlet rtt = rttMatch && rttMatch[1] ? rttMatch[1] : \"N/A\";\n\n// Output\nmsg.payload = {\n    Sno: contextCount,\n    node_id: nodeId,\n    RTT: rtt,\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9af615c21f7a77e8",
+        "type": "mqtt out",
+        "z": "ca34fae7ff981d98",
+        "name": "",
+        "topic": "painlessMesh/to/gateway",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 870,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "e861a56b94ecf306",
+        "type": "inject",
+        "z": "ca34fae7ff981d98",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ping",
+        "payloadType": "str",
+        "x": 250,
+        "y": 340,
+        "wires": [
+            [
+                "de8c46c28e6c0e9e"
+            ]
+        ]
+    },
+    {
+        "id": "de8c46c28e6c0e9e",
+        "type": "mqtt out",
+        "z": "ca34fae7ff981d98",
+        "name": "",
+        "topic": "painlessMesh/to/485306721",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 580,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "44b355ccb016816a",
+        "type": "mqtt in",
+        "z": "ca34fae7ff981d98",
+        "name": "",
+        "topic": "painlessMesh/from/gateway",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 620,
+        "y": 440,
+        "wires": [
+            [
+                "2f2beb77f76d6390"
+            ]
+        ]
+    },
+    {
+        "id": "602f5bf1a0dccec7",
+        "type": "csv",
+        "z": "ca34fae7ff981d98",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "Sno,node_id,RTT",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 1150,
+        "y": 440,
+        "wires": [
+            [
+                "0393ebd1f2274206"
+            ]
+        ]
+    },
+    {
+        "id": "2f2beb77f76d6390",
+        "type": "function",
+        "z": "ca34fae7ff981d98",
+        "name": "function 8",
+        "func": "let contextCount = context.get('counter') || 0;\n\nif (contextCount >= 500) {\n    return null;  // Stop processing after 500 messages\n}\n\ncontextCount += 1;\ncontext.set('counter', contextCount);\n\n// Clean and inspect payload\nlet payload = (msg.payload || \"\").toString().trim();\nconsole.log(\"Raw payload:\", JSON.stringify(payload));  // Debug output\n\nlet topic = msg.topic || \"\";\n\n// Extract node ID\nlet nodeMatch = payload.match(/node\\s+(\\d+)/i);\nlet nodeId = nodeMatch && nodeMatch[1] ? nodeMatch[1] : topic.split(\"/\").pop();\n\n// Flexible RTT match\nlet rttMatch = payload.match(/RTT\\s*=\\s*([\\d]+)/i);  // Handles newline or tab after '='\nlet rtt = rttMatch && rttMatch[1] ? rttMatch[1] : \"N/A\";\n\n// Output\nmsg.payload = {\n    Sno: contextCount,\n    node_id: nodeId,\n    RTT: rtt,\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 440,
+        "wires": [
+            [
+                "602f5bf1a0dccec7"
+            ]
+        ]
+    },
+    {
+        "id": "0393ebd1f2274206",
+        "type": "file",
+        "z": "ca34fae7ff981d98",
+        "name": "",
+        "filename": "/home/admin/ping_log_6721.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 1250,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "25190b127eef4c36",
+        "type": "mqtt in",
+        "z": "484f8371c2ed855b",
+        "name": "",
+        "topic": "painlessMesh/from/gateway",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 260,
+        "wires": [
+            [
+                "fc3e3d57d5021091"
+            ]
+        ]
+    },
+    {
+        "id": "fc3e3d57d5021091",
+        "type": "debug",
+        "z": "484f8371c2ed855b",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "e62be9ba9f07b45e",
+        "type": "debug",
+        "z": "d295edba74450a5f",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "2f0d560ae966cb24",
+        "type": "mqtt in",
+        "z": "d295edba74450a5f",
+        "name": "",
+        "topic": "smartplug/from/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "b0123b2970583c04",
+                "0ee9758e8336b07c",
+                "e62be9ba9f07b45e",
+                "cd342472945a12c1"
+            ]
+        ]
+    },
+    {
+        "id": "ffcfddd0a1833136",
+        "type": "mqtt out",
+        "z": "d295edba74450a5f",
+        "d": true,
+        "name": "",
+        "topic": "painlessMesh/to/",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 450,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "aa4110b86391182d",
+        "type": "inject",
+        "z": "d295edba74450a5f",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":21}}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 260,
+        "wires": [
+            [
+                "89c8cdb36f3242a0"
+            ]
+        ]
+    },
+    {
+        "id": "02d345386d0d7a41",
+        "type": "inject",
+        "z": "d295edba74450a5f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 420,
+        "wires": [
+            [
+                "000a19e58d0ec6e9"
+            ]
+        ]
+    },
+    {
+        "id": "000a19e58d0ec6e9",
+        "type": "exec",
+        "z": "d295edba74450a5f",
+        "command": "python ./metermodbus.py -u",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 420,
+        "y": 400,
+        "wires": [
+            [
+                "8e2931c7a8498485"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d182b37ee3389d74",
+        "type": "debug",
+        "z": "d295edba74450a5f",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "cd342472945a12c1",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "function 7",
+        "func": "let p = msg.payload;\nnode.log(typeof p);\nmsg.payload = p.power;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e2931c7a8498485",
+        "type": "python3-function",
+        "z": "d295edba74450a5f",
+        "name": "",
+        "func": "import ast\nimport re\n\nraw = msg['payload']\n\n# 1. Regex to extract datetime parts and replace with a string \"YYYY-MM-DDTHH:MM:SS.ssssss\"\ndef dt_replace(match):\n    # Groups: year, month, day, hour, minute, second, microsecond\n    parts = match.groups()\n    iso_str = f'\"{int(parts[0]):04d}-{int(parts[1]):02d}-{int(parts[2]):02d}T{int(parts[3]):02d}:{int(parts[4]):02d}:{int(parts[5]):02d}.{int(parts[6]):06d}\"'\n    return iso_str\n\n# Substitute datetime.datetime(...) with ISO format string in double quotes\npattern = r\"datetime\\.datetime\\((\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+)\\)\"\nraw2 = re.sub(pattern, dt_replace, raw)\n\ntry:\n    data = ast.literal_eval(raw2)\nexcept Exception as e:\n    msg['payload'] = {\"error\": f\"literal_eval failed: {str(e)}\", \"input\": raw2}\n    msg['topic'] = \"db\"\n    return msg\n\n# TimeStamp is now a string\nts_str = data.get('TimeStamp', '')\n\nnames = data.get('Name', [])\nvalues = data.get('Value', [])\n\ndef get_val(label):\n    try:\n        idx = names.index(label)\n        return values[idx]\n    except (ValueError, IndexError):\n        return None\n\nresult = {\n    \"timestamp\": ts_str,\n    \"voltage\": get_val('voltage'),\n    \"current\": get_val('cur'),\n    \"power\": get_val('power')\n}\n\nmsg['payload'] = result\nmsg['topic'] = \"db\"\nreturn msg\n\n",
+        "outputs": 1,
+        "x": 510,
+        "y": 340,
+        "wires": [
+            [
+                "7f17f89d8880c445"
+            ]
+        ]
+    },
+    {
+        "id": "d498e0e3a71821e1",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "function 9",
+        "func": "msg.topic = \"plug\";\nlet p = msg.payload;\nmsg.payload = {\n    voltage: p.volt || \"\",\n    current: p.amps || \"\",\n    power: p.power || \"\",\n    source: \"mqtt\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 180,
+        "wires": [
+            [
+                "7f17f89d8880c445"
+            ]
+        ]
+    },
+    {
+        "id": "6bcdd45e73f1e759",
+        "type": "csv",
+        "z": "d295edba74450a5f",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 750,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "25227247024016df",
+        "type": "file",
+        "z": "d295edba74450a5f",
+        "name": "Power Measurement",
+        "filename": "/home/admin/log.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 920,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7f17f89d8880c445",
+        "type": "join",
+        "z": "d295edba74450a5f",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 730,
+        "y": 360,
+        "wires": [
+            [
+                "d182b37ee3389d74",
+                "7f97c10ac9fb7f54"
+            ]
+        ]
+    },
+    {
+        "id": "b94a398cbdcd919e",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "function 10",
+        "func": "// 'msg.payload' is now an object like { usb: {...}, plug: {...} }\nlet usb = msg.payload.usb || {};\nlet plug = msg.payload.plug || {};\n\nmsg.payload = {\n    timestamp: usb.timestamp || plug.timestamp || new Date().toISOString(),\n    usb_voltage: usb.voltage || \"\",\n    usb_current: usb.current || \"\",\n    usb_power: usb.power || \"\",\n    plug_voltage: plug.voltage || \"\",\n    plug_current: plug.current || \"\",\n    plug_power: plug.power || \"\",\n        // You can add more as needed\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7f97c10ac9fb7f54",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "function 11",
+        "func": "const plug = msg.payload.plug;\nconst db = msg.payload.db;\n\nconst row = [\n    db.timestamp,\n    plug.voltage,\n    plug.current,\n    plug.power,\n    db.voltage,\n    db.current,\n    db.power\n];\n\nmsg.payload = row.join(\",\") + \"\\n\";  // One line of CSV\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 320,
+        "wires": [
+            [
+                "25227247024016df"
+            ]
+        ]
+    },
+    {
+        "id": "89c8cdb36f3242a0",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "d": true,
+        "name": "function 13",
+        "func": "var nodeID = global.get(\"nodeid1\");   \nmsg.topic = \"painlessMesh/to/\" + nodeID;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 260,
+        "wires": [
+            [
+                "ffcfddd0a1833136"
+            ]
+        ]
+    },
+    {
+        "id": "b0123b2970583c04",
+        "type": "debug",
+        "z": "d295edba74450a5f",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "0ee9758e8336b07c",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "Parse + MAC",
+        "func": "node.warn(\"Topic = \" + msg.topic);\n\nlet parts = msg.topic.split(\"/\");\nnode.warn(\"Parts = \" + JSON.stringify(parts));\n\nmsg.mac = parts[2];\nnode.warn(\"Extracted MAC = \" + msg.mac);\nmsg.mac = parts[2];\n\n// remember latest active device\nglobal.set(\"lastSeenMAC\", msg.mac);\n\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 160,
+        "wires": [
+            [
+                "59eb71181223985f"
+            ]
+        ]
+    },
+    {
+        "id": "8d734cfddfa44049",
+        "type": "inject",
+        "z": "d295edba74450a5f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":21}}",
+        "payloadType": "json",
+        "x": 90,
+        "y": 320,
+        "wires": [
+            [
+                "8fef2fb56cc5d945"
+            ]
+        ]
+    },
+    {
+        "id": "8fef2fb56cc5d945",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "INIT GRID",
+        "func": "\nlet grid = {\n    node1: null,\n    node2: null,\n    node3: null,\n    node4: null,\n    node5: null,\n    node6: null\n};\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Grid initialized\");\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 320,
+        "wires": [
+            [
+                "59cc8c5f3abeceb7"
+            ]
+        ]
+    },
+    {
+        "id": "59eb71181223985f",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "Store Last Device",
+        "func": "// Get current grid\nlet grid = global.get(\"gridMap\");\n\nif (!grid) {\n    node.warn(\"Grid not initialized\");\n    return msg;\n}\n\n\n// MAC coming from Parse + MAC\nlet mac = msg.mac;\n\n// Example assignment logic:\n// put device into first empty slot\n\n// Save back\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Grid updated: \" + JSON.stringify(grid));\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 220,
+        "wires": [
+            [
+                "d498e0e3a71821e1"
+            ]
+        ]
+    },
+    {
+        "id": "59cc8c5f3abeceb7",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "function 14",
+        "func": "// Get current grid map\nlet grid = global.get(\"gridMap\");\n\nif (!grid) {\n    node.status({\n        fill: \"red\",\n        shape: \"ring\",\n        text: \"Grid not initialized\"\n    });\n    return msg;\n}\n\n// Create short readable display\nlet text =\n    `N1:${grid.node1 || \"-\"} \n N2:${grid.node2 || \"-\"} \n N3:${grid.node3 || \"-\"} \n N4:${grid.node4 || \"-\"} \n N5:${grid.node5 || \"-\"} \n N6:${grid.node6 || \"-\"}`;\n\n// Show under node (LIVE display)\nnode.status({\n    fill: \"green\",\n    shape: \"dot\",\n    text: text\n});\n\n// Optional: send to debug panel\nmsg.payload = grid;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ae74a4c1f569b7e",
+        "type": "inject",
+        "z": "d295edba74450a5f",
+        "name": "Assign Node2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 520,
+        "wires": [
+            [
+                "6c8502d462be8af5"
+            ]
+        ]
+    },
+    {
+        "id": "6c8502d462be8af5",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n// last detected MAC stored globally\nlet mac = global.get(\"lastSeenMAC\");\n\nif (!mac) {\n    node.warn(\"No device detected yet\");\n    return null;\n}\n\ngrid[\"node2\"] = mac;\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Node2 assigned to \" + mac);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a26020685e2d0650",
+        "type": "inject",
+        "z": "d295edba74450a5f",
+        "name": "Assign Node1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 480,
+        "wires": [
+            [
+                "1d7ddc1b1885ebb5"
+            ]
+        ]
+    },
+    {
+        "id": "1d7ddc1b1885ebb5",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n// last detected MAC stored globally\nlet mac = global.get(\"lastSeenMAC\");\n\nif (!mac) {\n    node.warn(\"No device detected yet\");\n    return null;\n}\n\ngrid[\"node1\"] = mac;\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Node1 assigned to \" + mac);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f926cab03bdf93a8",
+        "type": "inject",
+        "z": "d295edba74450a5f",
+        "name": "Assign Node3",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 560,
+        "wires": [
+            [
+                "35432ecfdd31ffc9"
+            ]
+        ]
+    },
+    {
+        "id": "35432ecfdd31ffc9",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n// last detected MAC stored globally\nlet mac = global.get(\"lastSeenMAC\");\n\nif (!mac) {\n    node.warn(\"No device detected yet\");\n    return null;\n}\n\ngrid[\"node3\"] = mac;\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Node3 assigned to \" + mac);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31fd3682273e92d6",
+        "type": "inject",
+        "z": "d295edba74450a5f",
+        "name": "Assign Node4",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 600,
+        "wires": [
+            [
+                "a697af6e701f4c08"
+            ]
+        ]
+    },
+    {
+        "id": "a697af6e701f4c08",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n// last detected MAC stored globally\nlet mac = global.get(\"lastSeenMAC\");\n\nif (!mac) {\n    node.warn(\"No device detected yet\");\n    return null;\n}\n\ngrid[\"node4\"] = mac;\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Node4 assigned to \" + mac);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e56324b54ac3b97",
+        "type": "inject",
+        "z": "d295edba74450a5f",
+        "name": "Assign Node5",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 640,
+        "wires": [
+            [
+                "ae9b4337d8d7e628"
+            ]
+        ]
+    },
+    {
+        "id": "ae9b4337d8d7e628",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n// last detected MAC stored globally\nlet mac = global.get(\"lastSeenMAC\");\n\nif (!mac) {\n    node.warn(\"No device detected yet\");\n    return null;\n}\n\ngrid[\"node5\"] = mac;\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Node5 assigned to \" + mac);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7eba30ae61f2556d",
+        "type": "inject",
+        "z": "d295edba74450a5f",
+        "name": "Assign Node6",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 680,
+        "wires": [
+            [
+                "5c67c7eee816b762"
+            ]
+        ]
+    },
+    {
+        "id": "5c67c7eee816b762",
+        "type": "function",
+        "z": "d295edba74450a5f",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n// last detected MAC stored globally\nlet mac = global.get(\"lastSeenMAC\");\n\nif (!mac) {\n    node.warn(\"No device detected yet\");\n    return null;\n}\n\ngrid[\"node6\"] = mac;\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Node6 assigned to \" + mac);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "812e91a335ee1363",
+        "type": "mqtt in",
+        "z": "093bb4bd0d4e1026",
+        "name": "",
+        "topic": "smartplug/from/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "38458b73678da60a",
+                "48c5b5acfe6e2d88",
+                "ace94d8244bc50fc"
+            ]
+        ]
+    },
+    {
+        "id": "88e62089c5cb928f",
+        "type": "mqtt out",
+        "z": "093bb4bd0d4e1026",
+        "d": true,
+        "name": "",
+        "topic": "painlessMesh/to/",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 450,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "c674f7165039d771",
+        "type": "inject",
+        "z": "093bb4bd0d4e1026",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":21}}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "7f9cfb13e656e311"
+            ]
+        ]
+    },
+    {
+        "id": "ca1b96256c715de6",
+        "type": "inject",
+        "z": "093bb4bd0d4e1026",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 460,
+        "wires": [
+            [
+                "3a07c616637d35f9"
+            ]
+        ]
+    },
+    {
+        "id": "3a07c616637d35f9",
+        "type": "exec",
+        "z": "093bb4bd0d4e1026",
+        "command": "python ./metermodbus.py -u",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 480,
+        "y": 460,
+        "wires": [
+            [
+                "a8817662a39f45f0"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "396f970d79377a3e",
+        "type": "debug",
+        "z": "093bb4bd0d4e1026",
+        "name": "debug 11",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "ace94d8244bc50fc",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "function 12",
+        "func": "let p = msg.payload;\nnode.log(typeof p);\nmsg.payload = p.power;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8817662a39f45f0",
+        "type": "python3-function",
+        "z": "093bb4bd0d4e1026",
+        "name": "",
+        "func": "import ast\nimport re\n\nraw = msg['payload']\n\n# 1. Regex to extract datetime parts and replace with a string \"YYYY-MM-DDTHH:MM:SS.ssssss\"\ndef dt_replace(match):\n    # Groups: year, month, day, hour, minute, second, microsecond\n    parts = match.groups()\n    iso_str = f'\"{int(parts[0]):04d}-{int(parts[1]):02d}-{int(parts[2]):02d}T{int(parts[3]):02d}:{int(parts[4]):02d}:{int(parts[5]):02d}.{int(parts[6]):06d}\"'\n    return iso_str\n\n# Substitute datetime.datetime(...) with ISO format string in double quotes\npattern = r\"datetime\\.datetime\\((\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+)\\)\"\nraw2 = re.sub(pattern, dt_replace, raw)\n\ntry:\n    data = ast.literal_eval(raw2)\nexcept Exception as e:\n    msg['payload'] = {\"error\": f\"literal_eval failed: {str(e)}\", \"input\": raw2}\n    msg['topic'] = \"db\"\n    return msg\n\n# TimeStamp is now a string\nts_str = data.get('TimeStamp', '')\n\nnames = data.get('Name', [])\nvalues = data.get('Value', [])\n\ndef get_val(label):\n    try:\n        idx = names.index(label)\n        return values[idx]\n    except (ValueError, IndexError):\n        return None\n\nresult = {\n    \"timestamp\": ts_str,\n    \"voltage\": get_val('voltage'),\n    \"current\": get_val('cur'),\n    \"power\": get_val('power')\n}\n\nmsg['payload'] = result\nmsg['topic'] = \"db\"\nreturn msg\n\n",
+        "outputs": 1,
+        "x": 530,
+        "y": 380,
+        "wires": [
+            [
+                "fbd3deccc13730c3"
+            ]
+        ]
+    },
+    {
+        "id": "bd10dabb1c33406f",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "function 13",
+        "func": "msg.topic = \"plug\";\nlet p = msg.payload;\nmsg.payload = {\n    voltage: p.volt || \"\",\n    current: p.amps || \"\",\n    power: p.power || \"\",\n    source: \"mqtt\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 220,
+        "wires": [
+            [
+                "fbd3deccc13730c3"
+            ]
+        ]
+    },
+    {
+        "id": "4da57f1ce6c9e15f",
+        "type": "csv",
+        "z": "093bb4bd0d4e1026",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 750,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c829fd2bb7ec752d",
+        "type": "file",
+        "z": "093bb4bd0d4e1026",
+        "name": "Power Measurement",
+        "filename": "/home/admin/log.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 920,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fbd3deccc13730c3",
+        "type": "join",
+        "z": "093bb4bd0d4e1026",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 730,
+        "y": 400,
+        "wires": [
+            [
+                "396f970d79377a3e",
+                "7523b9a99130374b"
+            ]
+        ]
+    },
+    {
+        "id": "7523b9a99130374b",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "function 15",
+        "func": "const plug = msg.payload.plug;\nconst db = msg.payload.db;\n\nconst row = [\n    db.timestamp,\n    plug.voltage,\n    plug.current,\n    plug.power,\n    db.voltage,\n    db.current,\n    db.power\n];\n\nmsg.payload = row.join(\",\") + \"\\n\";  // One line of CSV\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 360,
+        "wires": [
+            [
+                "c829fd2bb7ec752d"
+            ]
+        ]
+    },
+    {
+        "id": "7f9cfb13e656e311",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "d": true,
+        "name": "function 16",
+        "func": "var nodeID = global.get(\"nodeid1\");   \nmsg.topic = \"painlessMesh/to/\" + nodeID;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 300,
+        "wires": [
+            [
+                "88e62089c5cb928f"
+            ]
+        ]
+    },
+    {
+        "id": "38458b73678da60a",
+        "type": "debug",
+        "z": "093bb4bd0d4e1026",
+        "name": "debug 12",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "48c5b5acfe6e2d88",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "Parse + MAC",
+        "func": "node.warn(\"Topic = \" + msg.topic);\n\nlet parts = msg.topic.split(\"/\");\n\nif (parts.length < 3) return null;\n\nmsg.mac = parts[2];\n\nnode.warn(\"Extracted MAC = \" + msg.mac);\n\n// --------------------\n// DEVICE REGISTRY\n// --------------------\nlet devices = global.get(\"devices\") || {};\n\ndevices[msg.mac] = {\n    lastSeen: Date.now()\n};\n\nglobal.set(\"devices\", devices);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 200,
+        "wires": [
+            [
+                "d689e4b30b5fdb2e",
+                "1c9dcacb7ad499e8"
+            ]
+        ]
+    },
+    {
+        "id": "2ca1b355f23f295e",
+        "type": "inject",
+        "z": "093bb4bd0d4e1026",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":21}}",
+        "payloadType": "json",
+        "x": 90,
+        "y": 360,
+        "wires": [
+            [
+                "9807bc65dee13a59"
+            ]
+        ]
+    },
+    {
+        "id": "9807bc65dee13a59",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "INIT GRID",
+        "func": "\nlet grid = {\n    node1: null,\n    node2: null,\n    node3: null,\n    node4: null,\n    node5: null,\n    node6: null\n};\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Grid initialized\");\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 360,
+        "wires": [
+            [
+                "57d203ef61d622ae"
+            ]
+        ]
+    },
+    {
+        "id": "50317b8c5c6f6221",
+        "type": "inject",
+        "z": "093bb4bd0d4e1026",
+        "name": "Assign Node2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 560,
+        "wires": [
+            [
+                "d6bede5273b26997"
+            ]
+        ]
+    },
+    {
+        "id": "d6bede5273b26997",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n/** * CHANGE THIS for each node: \"node1\", \"node2\", ..., \"node6\"\n */\nlet targetNode = \"node2\";\n\n/**\n * PARALLEL LOGIC:\n * 1. Checks msg.payload first (for your manual Inject buttons)\n * 2. If payload is a timestamp/empty, checks global \"selectedMAC\" (from UI)\n */\nlet selectedUI = global.get(\"selectedMAC\");\nlet mac = (typeof msg.payload === \"string\" && msg.payload.includes(\":\"))\n    ? msg.payload\n    : selectedUI;\n\n// VALIDATION: Check if the device is currently \"Live\" in your registry\nlet activeDevices = global.get(\"devices\") || {};\n\nif (!mac || !activeDevices[mac]) {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"Device Offline or Not Selected\" });\n    return null;\n}\n\n// Update the grid mapping\ngrid[targetNode] = mac;\nglobal.set(\"gridMap\", grid);\n\nnode.status({ fill: \"green\", shape: \"dot\", text: targetNode + \" -> \" + mac });\nnode.warn(targetNode + \" assigned to \" + mac);\n\n// Output the full grid for your downstream processing\nmsg.payload = grid;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d689e4b30b5fdb2e",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "Store Last Device",
+        "func": "// Get current grid\nlet grid = global.get(\"gridMap\");\n\nif (!grid) {\n    node.warn(\"Grid not initialized\");\n    return msg;\n}\n\n\n// MAC coming from Parse + MAC\nlet mac = msg.mac;\n\n// Example assignment logic:\n// put device into first empty slot\n\n// Save back\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Grid updated: \" + JSON.stringify(grid));\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 260,
+        "wires": [
+            [
+                "bd10dabb1c33406f"
+            ]
+        ]
+    },
+    {
+        "id": "57d203ef61d622ae",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "function 17",
+        "func": "// Get current grid map\nlet grid = global.get(\"gridMap\");\n\nif (!grid) {\n    node.status({\n        fill: \"red\",\n        shape: \"ring\",\n        text: \"Grid not initialized\"\n    });\n    return msg;\n}\n\n// Create short readable display\nlet text =\n    `N1:${grid.node1 || \"-\"} \n N2:${grid.node2 || \"-\"} \n N3:${grid.node3 || \"-\"} \n N4:${grid.node4 || \"-\"} \n N5:${grid.node5 || \"-\"} \n N6:${grid.node6 || \"-\"}`;\n\n// Show under node (LIVE display)\nnode.status({\n    fill: \"green\",\n    shape: \"dot\",\n    text: text\n});\n\n// Optional: send to debug panel\nmsg.payload = grid;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ad8f9cba732b130",
+        "type": "inject",
+        "z": "093bb4bd0d4e1026",
+        "name": "Assign Node1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 520,
+        "wires": [
+            [
+                "1be5563d195087fe"
+            ]
+        ]
+    },
+    {
+        "id": "1be5563d195087fe",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n/** * CHANGE THIS for each node: \"node1\", \"node2\", ..., \"node6\"\n */\nlet targetNode = \"node1\"; \n\n/**\n * PARALLEL LOGIC:\n * 1. Checks msg.payload first (for your manual Inject buttons)\n * 2. If payload is a timestamp/empty, checks global \"selectedMAC\" (from UI)\n */\nlet selectedUI = global.get(\"selectedMAC\");\nlet mac = (typeof msg.payload === \"string\" && msg.payload.includes(\":\")) \n          ? msg.payload \n          : selectedUI;\n\n// VALIDATION: Check if the device is currently \"Live\" in your registry\nlet activeDevices = global.get(\"devices\") || {};\n\nif (!mac || !activeDevices[mac]) {\n    node.status({fill:\"red\", shape:\"ring\", text:\"Device Offline or Not Selected\"});\n    return null; \n}\n\n// Update the grid mapping\ngrid[targetNode] = mac;\nglobal.set(\"gridMap\", grid);\n\nnode.status({fill:\"green\", shape:\"dot\", text: targetNode + \" -> \" + mac});\nnode.warn(targetNode + \" assigned to \" + mac);\n\n// Output the full grid for your downstream processing\nmsg.payload = grid;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2ac763e273e2ca56",
+        "type": "inject",
+        "z": "093bb4bd0d4e1026",
+        "name": "Assign Node3",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 600,
+        "wires": [
+            [
+                "a253bf49e759046f"
+            ]
+        ]
+    },
+    {
+        "id": "a253bf49e759046f",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n/** * CHANGE THIS for each node: \"node1\", \"node2\", ..., \"node6\"\n */\nlet targetNode = \"node3\";\n\n/**\n * PARALLEL LOGIC:\n * 1. Checks msg.payload first (for your manual Inject buttons)\n * 2. If payload is a timestamp/empty, checks global \"selectedMAC\" (from UI)\n */\nlet selectedUI = global.get(\"selectedMAC\");\nlet mac = (typeof msg.payload === \"string\" && msg.payload.includes(\":\"))\n    ? msg.payload\n    : selectedUI;\n\n// VALIDATION: Check if the device is currently \"Live\" in your registry\nlet activeDevices = global.get(\"devices\") || {};\n\nif (!mac || !activeDevices[mac]) {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"Device Offline or Not Selected\" });\n    return null;\n}\n\n// Update the grid mapping\ngrid[targetNode] = mac;\nglobal.set(\"gridMap\", grid);\n\nnode.status({ fill: \"green\", shape: \"dot\", text: targetNode + \" -> \" + mac });\nnode.warn(targetNode + \" assigned to \" + mac);\n\n// Output the full grid for your downstream processing\nmsg.payload = grid;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "116f141e574dec0c",
+        "type": "inject",
+        "z": "093bb4bd0d4e1026",
+        "name": "Assign Node4",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 640,
+        "wires": [
+            [
+                "014e60e744d34f6a"
+            ]
+        ]
+    },
+    {
+        "id": "014e60e744d34f6a",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n/** * CHANGE THIS for each node: \"node1\", \"node2\", ..., \"node6\"\n */\nlet targetNode = \"node4\";\n\n/**\n * PARALLEL LOGIC:\n * 1. Checks msg.payload first (for your manual Inject buttons)\n * 2. If payload is a timestamp/empty, checks global \"selectedMAC\" (from UI)\n */\nlet selectedUI = global.get(\"selectedMAC\");\nlet mac = (typeof msg.payload === \"string\" && msg.payload.includes(\":\"))\n    ? msg.payload\n    : selectedUI;\n\n// VALIDATION: Check if the device is currently \"Live\" in your registry\nlet activeDevices = global.get(\"devices\") || {};\n\nif (!mac || !activeDevices[mac]) {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"Device Offline or Not Selected\" });\n    return null;\n}\n\n// Update the grid mapping\ngrid[targetNode] = mac;\nglobal.set(\"gridMap\", grid);\n\nnode.status({ fill: \"green\", shape: \"dot\", text: targetNode + \" -> \" + mac });\nnode.warn(targetNode + \" assigned to \" + mac);\n\n// Output the full grid for your downstream processing\nmsg.payload = grid;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "50c32f275f84b316",
+        "type": "inject",
+        "z": "093bb4bd0d4e1026",
+        "name": "Assign Node5",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 680,
+        "wires": [
+            [
+                "9c3d5cea9aa9a1c5"
+            ]
+        ]
+    },
+    {
+        "id": "9c3d5cea9aa9a1c5",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n/** * CHANGE THIS for each node: \"node1\", \"node2\", ..., \"node6\"\n */\nlet targetNode = \"node5\";\n\n/**\n * PARALLEL LOGIC:\n * 1. Checks msg.payload first (for your manual Inject buttons)\n * 2. If payload is a timestamp/empty, checks global \"selectedMAC\" (from UI)\n */\nlet selectedUI = global.get(\"selectedMAC\");\nlet mac = (typeof msg.payload === \"string\" && msg.payload.includes(\":\"))\n    ? msg.payload\n    : selectedUI;\n\n// VALIDATION: Check if the device is currently \"Live\" in your registry\nlet activeDevices = global.get(\"devices\") || {};\n\nif (!mac || !activeDevices[mac]) {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"Device Offline or Not Selected\" });\n    return null;\n}\n\n// Update the grid mapping\ngrid[targetNode] = mac;\nglobal.set(\"gridMap\", grid);\n\nnode.status({ fill: \"green\", shape: \"dot\", text: targetNode + \" -> \" + mac });\nnode.warn(targetNode + \" assigned to \" + mac);\n\n// Output the full grid for your downstream processing\nmsg.payload = grid;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a34aa952fc257457",
+        "type": "inject",
+        "z": "093bb4bd0d4e1026",
+        "name": "Assign Node6",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 720,
+        "wires": [
+            [
+                "4771565e709722da"
+            ]
+        ]
+    },
+    {
+        "id": "4771565e709722da",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "node assignment",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n/** * CHANGE THIS for each node: \"node1\", \"node2\", ..., \"node6\"\n */\nlet targetNode = \"node6\";\n\n/**\n * PARALLEL LOGIC:\n * 1. Checks msg.payload first (for your manual Inject buttons)\n * 2. If payload is a timestamp/empty, checks global \"selectedMAC\" (from UI)\n */\nlet selectedUI = global.get(\"selectedMAC\");\nlet mac = (typeof msg.payload === \"string\" && msg.payload.includes(\":\"))\n    ? msg.payload\n    : selectedUI;\n\n// VALIDATION: Check if the device is currently \"Live\" in your registry\nlet activeDevices = global.get(\"devices\") || {};\n\nif (!mac || !activeDevices[mac]) {\n    node.status({ fill: \"red\", shape: \"ring\", text: \"Device Offline or Not Selected\" });\n    return null;\n}\n\n// Update the grid mapping\ngrid[targetNode] = mac;\nglobal.set(\"gridMap\", grid);\n\nnode.status({ fill: \"green\", shape: \"dot\", text: targetNode + \" -> \" + mac });\nnode.warn(targetNode + \" assigned to \" + mac);\n\n// Output the full grid for your downstream processing\nmsg.payload = grid;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c9dcacb7ad499e8",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "Update Device List",
+        "func": "let devices = global.get(\"devices\") || {};\nlet simpleList = Object.keys(devices); // This creates ['MAC1', 'MAC2']\n\n// We send a COMPLETELY NEW object. No old msg properties.\nreturn {\n    options: simpleList,\n    payload: \"\"\n};",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 160,
+        "wires": [
+            [
+                "554e1c51cc2cd8cd",
+                "4d237cb67ec0a4d2"
+            ]
+        ]
+    },
+    {
+        "id": "1012cc2751288de9",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "Store Selected Device",
+        "func": "// Function: Store Selected Device\n// This captures the dropdown selection into a global variable\nglobal.set(\"selectedMAC\", msg.payload); \n\nnode.warn(\"Dropdown selection active: \" + msg.payload);\n\n// Pass the message along in case you want to trigger a UI refresh\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "554e1c51cc2cd8cd",
+        "type": "debug",
+        "z": "093bb4bd0d4e1026",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "4d237cb67ec0a4d2",
+        "type": "ui_dropdown",
+        "z": "093bb4bd0d4e1026",
+        "name": "dropdown",
+        "label": "Select Device",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "14406e376a115059",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "global",
+        "className": "",
+        "x": 780,
+        "y": 140,
+        "wires": [
+            [
+                "1012cc2751288de9"
+            ]
+        ]
+    },
+    {
+        "id": "43b13e147eab2208",
+        "type": "inject",
+        "z": "093bb4bd0d4e1026",
+        "name": "clean_global_var",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 530,
+        "y": 520,
+        "wires": [
+            [
+                "b4de76527b0a6bf8"
+            ]
+        ]
+    },
+    {
+        "id": "b4de76527b0a6bf8",
+        "type": "function",
+        "z": "093bb4bd0d4e1026",
+        "name": "function 24",
+        "func": "let devices = global.get(\"devices\") || {};\nlet now = Date.now();\nlet expiry = 2000; // 20 seconds of silence = device is \"OFFLINE\"\nlet changed = false;\n\nfor (let mac in devices) {\n    if (now - devices[mac].lastSeen > expiry) {\n        delete devices[mac];\n        changed = true;\n    }\n}\n\nif (changed) {\n    global.set(\"devices\", devices);\n    return { payload: \"refresh\" }; // Triggers the dropdown update\n}\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71c0597c4c4a1a09",
+        "type": "debug",
+        "z": "75b3ef0eecdd018f",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "dac40e4d3ddb87c7",
+        "type": "mqtt in",
+        "z": "75b3ef0eecdd018f",
+        "name": "",
+        "topic": "smartplug/from/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "74cc1aa545884ec0",
+                "596f67bc1f10847a",
+                "71c0597c4c4a1a09",
+                "8abdb858d526c6c7"
+            ]
+        ]
+    },
+    {
+        "id": "63b4ebb4b371f82c",
+        "type": "mqtt out",
+        "z": "75b3ef0eecdd018f",
+        "d": true,
+        "name": "",
+        "topic": "painlessMesh/to/",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 450,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "db986c0d507bd1e8",
+        "type": "inject",
+        "z": "75b3ef0eecdd018f",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":21}}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 260,
+        "wires": [
+            [
+                "b9eedd20ad230ead"
+            ]
+        ]
+    },
+    {
+        "id": "00706854fb908c20",
+        "type": "inject",
+        "z": "75b3ef0eecdd018f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 420,
+        "wires": [
+            [
+                "6cf4281e38b35178"
+            ]
+        ]
+    },
+    {
+        "id": "6cf4281e38b35178",
+        "type": "exec",
+        "z": "75b3ef0eecdd018f",
+        "command": "python ./metermodbus.py -u",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 420,
+        "y": 400,
+        "wires": [
+            [
+                "d47e2ac281119d89"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7b325fb66277521e",
+        "type": "debug",
+        "z": "75b3ef0eecdd018f",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8abdb858d526c6c7",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "name": "function 15",
+        "func": "let p = msg.payload;\nnode.log(typeof p);\nmsg.payload = p.power;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d47e2ac281119d89",
+        "type": "python3-function",
+        "z": "75b3ef0eecdd018f",
+        "name": "",
+        "func": "import ast\nimport re\n\nraw = msg['payload']\n\n# 1. Regex to extract datetime parts and replace with a string \"YYYY-MM-DDTHH:MM:SS.ssssss\"\ndef dt_replace(match):\n    # Groups: year, month, day, hour, minute, second, microsecond\n    parts = match.groups()\n    iso_str = f'\"{int(parts[0]):04d}-{int(parts[1]):02d}-{int(parts[2]):02d}T{int(parts[3]):02d}:{int(parts[4]):02d}:{int(parts[5]):02d}.{int(parts[6]):06d}\"'\n    return iso_str\n\n# Substitute datetime.datetime(...) with ISO format string in double quotes\npattern = r\"datetime\\.datetime\\((\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+)\\)\"\nraw2 = re.sub(pattern, dt_replace, raw)\n\ntry:\n    data = ast.literal_eval(raw2)\nexcept Exception as e:\n    msg['payload'] = {\"error\": f\"literal_eval failed: {str(e)}\", \"input\": raw2}\n    msg['topic'] = \"db\"\n    return msg\n\n# TimeStamp is now a string\nts_str = data.get('TimeStamp', '')\n\nnames = data.get('Name', [])\nvalues = data.get('Value', [])\n\ndef get_val(label):\n    try:\n        idx = names.index(label)\n        return values[idx]\n    except (ValueError, IndexError):\n        return None\n\nresult = {\n    \"timestamp\": ts_str,\n    \"voltage\": get_val('voltage'),\n    \"current\": get_val('cur'),\n    \"power\": get_val('power')\n}\n\nmsg['payload'] = result\nmsg['topic'] = \"db\"\nreturn msg\n\n",
+        "outputs": 1,
+        "x": 510,
+        "y": 340,
+        "wires": [
+            [
+                "32bc4f8fcddef2a9"
+            ]
+        ]
+    },
+    {
+        "id": "b1d22170eacfc93c",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "name": "function 16",
+        "func": "let p = msg.payload;\nmsg.payload = {\n    timestamp: p.timestamp,\n    voltage: p.voltage || \"\",\n    current: p.current || \"\",\n    pf: p.pf || \"\",\n    power: \"\",\n    source: \"usb\"\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cc2cc1064145569e",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "name": "function 17",
+        "func": "msg.topic = \"plug\";\nlet p = msg.payload;\nmsg.payload = {\n    voltage: p.volt || \"\",\n    current: p.amps || \"\",\n    power: p.power || \"\",\n    source: \"mqtt\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 180,
+        "wires": [
+            [
+                "32bc4f8fcddef2a9"
+            ]
+        ]
+    },
+    {
+        "id": "a5ef92c43387757e",
+        "type": "csv",
+        "z": "75b3ef0eecdd018f",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 750,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "424b2116fdecec98",
+        "type": "file",
+        "z": "75b3ef0eecdd018f",
+        "name": "Power Measurement",
+        "filename": "/home/admin/log.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 920,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "32bc4f8fcddef2a9",
+        "type": "join",
+        "z": "75b3ef0eecdd018f",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 730,
+        "y": 360,
+        "wires": [
+            [
+                "7b325fb66277521e",
+                "46c7af732c7b92c0"
+            ]
+        ]
+    },
+    {
+        "id": "6571e984b2945743",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "name": "function 18",
+        "func": "// 'msg.payload' is now an object like { usb: {...}, plug: {...} }\nlet usb = msg.payload.usb || {};\nlet plug = msg.payload.plug || {};\n\nmsg.payload = {\n    timestamp: usb.timestamp || plug.timestamp || new Date().toISOString(),\n    usb_voltage: usb.voltage || \"\",\n    usb_current: usb.current || \"\",\n    usb_power: usb.power || \"\",\n    plug_voltage: plug.voltage || \"\",\n    plug_current: plug.current || \"\",\n    plug_power: plug.power || \"\",\n        // You can add more as needed\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46c7af732c7b92c0",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "name": "function 19",
+        "func": "const plug = msg.payload.plug;\nconst db = msg.payload.db;\n\nconst row = [\n    db.timestamp,\n    plug.voltage,\n    plug.current,\n    plug.power,\n    db.voltage,\n    db.current,\n    db.power\n];\n\nmsg.payload = row.join(\",\") + \"\\n\";  // One line of CSV\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 320,
+        "wires": [
+            [
+                "424b2116fdecec98"
+            ]
+        ]
+    },
+    {
+        "id": "b9eedd20ad230ead",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "d": true,
+        "name": "function 20",
+        "func": "var nodeID = global.get(\"nodeid1\");   \nmsg.topic = \"painlessMesh/to/\" + nodeID;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 260,
+        "wires": [
+            [
+                "63b4ebb4b371f82c"
+            ]
+        ]
+    },
+    {
+        "id": "74cc1aa545884ec0",
+        "type": "debug",
+        "z": "75b3ef0eecdd018f",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "596f67bc1f10847a",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "name": "Parse + MAC",
+        "func": "node.warn(\"Topic = \" + msg.topic);\n\nlet parts = msg.topic.split(\"/\");\nnode.warn(\"Parts = \" + JSON.stringify(parts));\n\nmsg.mac = parts[2];\nnode.warn(\"Extracted MAC = \" + msg.mac);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 160,
+        "wires": [
+            [
+                "85cb2de7d4858e62"
+            ]
+        ]
+    },
+    {
+        "id": "5debaa801e900952",
+        "type": "inject",
+        "z": "75b3ef0eecdd018f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":21}}",
+        "payloadType": "json",
+        "x": 90,
+        "y": 320,
+        "wires": [
+            [
+                "f956ce48e3fed2dc"
+            ]
+        ]
+    },
+    {
+        "id": "f956ce48e3fed2dc",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "name": "INIT GRID",
+        "func": "\nlet grid = {\n    node1: null,\n    node2: null,\n    node3: null,\n    node4: null,\n    node5: null,\n    node6: null\n};\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Grid initialized\");\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d8281629f27ffcd7",
+        "type": "inject",
+        "z": "75b3ef0eecdd018f",
+        "name": "Assign Node2",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 360,
+        "wires": [
+            [
+                "3bde08d330fdaa3a"
+            ]
+        ]
+    },
+    {
+        "id": "3bde08d330fdaa3a",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "name": "function 21",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n// last detected MAC stored globally\nlet mac = global.get(\"lastSeenMac\");\n\nif (!mac) {\n    node.warn(\"No device detected yet\");\n    return null;\n}\n\ngrid[\"node2\"] = mac;\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Node2 assigned to \" + mac);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "85cb2de7d4858e62",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "name": "Store Last Device",
+        "func": "let grid = global.get(\"gridMap\") || {};\nlet devices = global.get(\"devices\") || {};\n\n// Assume msg.unit comes from your MQTT topic or payload (e.g., \"node2\")\n// Assume msg.mac is the new hardware MAC\nlet unitId = msg.unit; \nlet newMac = msg.mac;\n\nif (unitId) {\n    // This solves your problem: The Node ID stays the same, \n    // but the MAC address is updated to the newest one received.\n    grid[unitId] = newMac;\n    \n    // Update the timestamp for the new hardware\n    devices[newMac] = Date.now();\n    \n    global.set(\"gridMap\", grid);\n    global.set(\"devices\", devices);\n    \n    node.warn(\"Updated \" + unitId + \" to new MAC: \" + newMac);\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 220,
+        "wires": [
+            [
+                "cc2cc1064145569e"
+            ]
+        ]
+    },
+    {
+        "id": "a1855195b642cd0e",
+        "type": "inject",
+        "z": "75b3ef0eecdd018f",
+        "name": "alive",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 70,
+        "y": 500,
+        "wires": [
+            [
+                "2e4620cfcfcd1b9f"
+            ]
+        ]
+    },
+    {
+        "id": "2e4620cfcfcd1b9f",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "name": "function 22",
+        "func": "let devices = global.get(\"devices\") || {};\nlet grid = global.get(\"gridMap\") || {};\nlet now = Date.now();\nlet TIMEOUT = 10000; \n\nfor (let unitId in grid) {\n    let currentMac = grid[unitId];\n    let lastSeen = devices[currentMac];\n\n    if (!lastSeen || (now - lastSeen) > TIMEOUT) {\n        node.warn(`Unit ${unitId} (Hardware: ${currentMac}) is OFFLINE`);\n    } else {\n        node.log(`Unit ${unitId} is active.`);\n    }\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "193be55063ebd153",
+        "type": "inject",
+        "z": "75b3ef0eecdd018f",
+        "name": "Assign Node3",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 460,
+        "wires": [
+            [
+                "09e0d58a7c35cba0"
+            ]
+        ]
+    },
+    {
+        "id": "09e0d58a7c35cba0",
+        "type": "function",
+        "z": "75b3ef0eecdd018f",
+        "name": "function 23",
+        "func": "let grid = global.get(\"gridMap\") || {};\n\n// last detected MAC stored globally\nlet mac = global.get(\"lastSeenMac\");\n\nif (!mac) {\n    node.warn(\"No device detected yet\");\n    return null;\n}\n\ngrid[\"node3\"] = mac;\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Node3 assigned to \" + mac);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "143605f3c096837a",
+        "type": "mqtt in",
+        "z": "457e702e22086401",
+        "name": "",
+        "topic": "test/ping",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 280,
+        "y": 120,
+        "wires": [
+            [
+                "46b61a2297116b62"
+            ]
+        ]
+    },
+    {
+        "id": "46b61a2297116b62",
+        "type": "debug",
+        "z": "457e702e22086401",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "84cb1557018a2746",
+        "type": "mqtt out",
+        "z": "457e702e22086401",
+        "name": "",
+        "topic": "esp32/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 900,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "eae141d436d5ea9f",
+        "type": "inject",
+        "z": "457e702e22086401",
+        "name": "LED ON",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "x": 600,
+        "y": 360,
+        "wires": [
+            [
+                "84cb1557018a2746"
+            ]
+        ]
+    },
+    {
+        "id": "2c963b85f59328d0",
+        "type": "inject",
+        "z": "457e702e22086401",
+        "name": "LED OFF",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 580,
+        "y": 480,
+        "wires": [
+            [
+                "84cb1557018a2746"
+            ]
+        ]
+    },
+    {
+        "id": "c867cfbe4520f79a",
+        "type": "mqtt out",
+        "z": "457e702e22086401",
+        "name": "",
+        "topic": "painlessMesh/to/broadcast",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 420,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "764ead1721d4b9b0",
+        "type": "inject",
+        "z": "457e702e22086401",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "HelloMesh",
+        "payloadType": "str",
+        "x": 220,
+        "y": 660,
+        "wires": [
+            [
+                "c867cfbe4520f79a"
+            ]
+        ]
+    },
+    {
+        "id": "0a1bb0db27b65da4",
+        "type": "mqtt in",
+        "z": "91b965277fed4a96",
+        "name": "",
+        "topic": "smartplug/from/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 100,
+        "wires": [
+            [
+                "6712fd884ee9e9fc",
+                "3da7f4632914bb29",
+                "54092b8622205d41"
+            ]
+        ]
+    },
+    {
+        "id": "8d1127ed5cc47225",
+        "type": "mqtt out",
+        "z": "91b965277fed4a96",
+        "d": true,
+        "name": "",
+        "topic": "painlessMesh/to/",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 450,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "8947314193ea9e45",
+        "type": "inject",
+        "z": "91b965277fed4a96",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":21}}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 260,
+        "wires": [
+            [
+                "91fc662c0d8dd51d"
+            ]
+        ]
+    },
+    {
+        "id": "7d53f93666c1ce03",
+        "type": "inject",
+        "z": "91b965277fed4a96",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 420,
+        "wires": [
+            [
+                "f9fbfa0c2feb1c45"
+            ]
+        ]
+    },
+    {
+        "id": "f9fbfa0c2feb1c45",
+        "type": "exec",
+        "z": "91b965277fed4a96",
+        "command": "python ./metermodbus.py -u",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 440,
+        "y": 400,
+        "wires": [
+            [
+                "900c3393e9e3f2bc"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3a00d5455a3ae31a",
+        "type": "debug",
+        "z": "91b965277fed4a96",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "54092b8622205d41",
+        "type": "function",
+        "z": "91b965277fed4a96",
+        "name": "function 25",
+        "func": "let p = msg.payload;\nnode.log(typeof p);\nmsg.payload = p.power;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "900c3393e9e3f2bc",
+        "type": "python3-function",
+        "z": "91b965277fed4a96",
+        "name": "",
+        "func": "import ast\nimport re\n\nraw = msg['payload']\n\n# 1. Regex to extract datetime parts and replace with a string \"YYYY-MM-DDTHH:MM:SS.ssssss\"\ndef dt_replace(match):\n    # Groups: year, month, day, hour, minute, second, microsecond\n    parts = match.groups()\n    iso_str = f'\"{int(parts[0]):04d}-{int(parts[1]):02d}-{int(parts[2]):02d}T{int(parts[3]):02d}:{int(parts[4]):02d}:{int(parts[5]):02d}.{int(parts[6]):06d}\"'\n    return iso_str\n\n# Substitute datetime.datetime(...) with ISO format string in double quotes\npattern = r\"datetime\\.datetime\\((\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+)\\)\"\nraw2 = re.sub(pattern, dt_replace, raw)\n\ntry:\n    data = ast.literal_eval(raw2)\nexcept Exception as e:\n    msg['payload'] = {\"error\": f\"literal_eval failed: {str(e)}\", \"input\": raw2}\n    msg['topic'] = \"db\"\n    return msg\n\n# TimeStamp is now a string\nts_str = data.get('TimeStamp', '')\n\nnames = data.get('Name', [])\nvalues = data.get('Value', [])\n\ndef get_val(label):\n    try:\n        idx = names.index(label)\n        return values[idx]\n    except (ValueError, IndexError):\n        return None\n\nresult = {\n    \"timestamp\": ts_str,\n    \"voltage\": get_val('voltage'),\n    \"current\": get_val('cur'),\n    \"power\": get_val('power')\n}\n\nmsg['payload'] = result\nmsg['topic'] = \"db\"\nreturn msg\n\n",
+        "outputs": 1,
+        "x": 530,
+        "y": 340,
+        "wires": [
+            [
+                "d68f16392915d7d1"
+            ]
+        ]
+    },
+    {
+        "id": "f8cb62feb5441efa",
+        "type": "function",
+        "z": "91b965277fed4a96",
+        "name": "function 26",
+        "func": "msg.topic = \"plug\";\nlet p = msg.payload;\nmsg.payload = {\n    voltage: p.volt || \"\",\n    current: p.amps || \"\",\n    power: p.power || \"\",\n    source: \"mqtt\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 280,
+        "wires": [
+            [
+                "d68f16392915d7d1"
+            ]
+        ]
+    },
+    {
+        "id": "dd45c45260e34204",
+        "type": "csv",
+        "z": "91b965277fed4a96",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 850,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24f79a8b89ad8ea2",
+        "type": "file",
+        "z": "91b965277fed4a96",
+        "name": "Power Measurement",
+        "filename": "/home/admin/log.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 940,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d68f16392915d7d1",
+        "type": "join",
+        "z": "91b965277fed4a96",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 750,
+        "y": 360,
+        "wires": [
+            [
+                "3a00d5455a3ae31a",
+                "9e8089668037bdf9"
+            ]
+        ]
+    },
+    {
+        "id": "9e8089668037bdf9",
+        "type": "function",
+        "z": "91b965277fed4a96",
+        "name": "function 28",
+        "func": "const plug = msg.payload.plug;\nconst db = msg.payload.db;\n\nconst row = [\n    db.timestamp,\n    plug.voltage,\n    plug.current,\n    plug.power,\n    db.voltage,\n    db.current,\n    db.power\n];\n\nmsg.payload = row.join(\",\") + \"\\n\";  // One line of CSV\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 320,
+        "wires": [
+            [
+                "24f79a8b89ad8ea2"
+            ]
+        ]
+    },
+    {
+        "id": "91fc662c0d8dd51d",
+        "type": "function",
+        "z": "91b965277fed4a96",
+        "d": true,
+        "name": "function 29",
+        "func": "var nodeID = global.get(\"nodeid1\");   \nmsg.topic = \"painlessMesh/to/\" + nodeID;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 270,
+        "y": 260,
+        "wires": [
+            [
+                "8d1127ed5cc47225"
+            ]
+        ]
+    },
+    {
+        "id": "6712fd884ee9e9fc",
+        "type": "debug",
+        "z": "91b965277fed4a96",
+        "name": "debug 16",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 330,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "3da7f4632914bb29",
+        "type": "function",
+        "z": "91b965277fed4a96",
+        "name": "Parse + MAC",
+        "func": "// Convert payload to object if needed\nif (typeof msg.payload === \"string\") {\n    msg.payload = JSON.parse(msg.payload);\n}\n\nlet nodeID = msg.payload.node;\nlet mac = msg.payload.mac;\n\nif (!nodeID || !mac) {\n    node.warn(\"Missing node or MAC\");\n    return null;\n}\n\n// Save mapping automatically\nlet map = global.get(\"nodeMACMap\") || {};\nmap[nodeID] = mac;\nglobal.set(\"nodeMACMap\", map);\n\nmsg.nodeID = nodeID;\nmsg.mac = mac;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 160,
+        "wires": [
+            [
+                "694cee8b86b612bc",
+                "40d35fe2fc585465",
+                "f10425727390e8ca"
+            ]
+        ]
+    },
+    {
+        "id": "99c60b74a1e4300b",
+        "type": "inject",
+        "z": "91b965277fed4a96",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":21}}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 320,
+        "wires": [
+            [
+                "29c2ee75a11b177f"
+            ]
+        ]
+    },
+    {
+        "id": "29c2ee75a11b177f",
+        "type": "function",
+        "z": "91b965277fed4a96",
+        "name": "INIT GRID",
+        "func": "\nlet grid = {\n    node1: null,\n    node2: null,\n    node3: null,\n    node4: null,\n    node5: null,\n    node6: null\n};\n\nglobal.set(\"gridMap\", grid);\n\nnode.warn(\"Grid initialized\");\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 320,
+        "wires": [
+            [
+                "f6628964ad929dd4"
+            ]
+        ]
+    },
+    {
+        "id": "694cee8b86b612bc",
+        "type": "function",
+        "z": "91b965277fed4a96",
+        "name": "Store Last Device",
+        "func": "let last = global.get(\"lastSeen\") || {};\n\nlast[msg.nodeID] = {\n    mac: msg.mac,\n    time: Date.now()\n};\n\nglobal.set(\"lastSeen\", last);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 220,
+        "wires": [
+            [
+                "f8cb62feb5441efa"
+            ]
+        ]
+    },
+    {
+        "id": "f6628964ad929dd4",
+        "type": "function",
+        "z": "91b965277fed4a96",
+        "name": "function 30",
+        "func": "// Get current grid map\nlet grid = global.get(\"gridMap\");\n\nif (!grid) {\n    node.status({\n        fill: \"red\",\n        shape: \"ring\",\n        text: \"Grid not initialized\"\n    });\n    return msg;\n}\n\n// Create short readable display\nlet text =\n    `N1:${grid.node1 || \"-\"} \n N2:${grid.node2 || \"-\"} \n N3:${grid.node3 || \"-\"} \n N4:${grid.node4 || \"-\"} \n N5:${grid.node5 || \"-\"} \n N6:${grid.node6 || \"-\"}`;\n\n// Show under node (LIVE display)\nnode.status({\n    fill: \"green\",\n    shape: \"dot\",\n    text: text\n});\n\n// Optional: send to debug panel\nmsg.payload = grid;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2e65fb5b2c63cb0d",
+        "type": "inject",
+        "z": "91b965277fed4a96",
+        "name": "Assign Node1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 480,
+        "wires": [
+            [
+                "23073093fdccb8da"
+            ]
+        ]
+    },
+    {
+        "id": "23073093fdccb8da",
+        "type": "function",
+        "z": "91b965277fed4a96",
+        "name": "node assignment debug",
+        "func": "msg.payload = global.get(\"nodeMACMap\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 480,
+        "wires": [
+            [
+                "76df2e8ccb913dba"
+            ]
+        ]
+    },
+    {
+        "id": "40d35fe2fc585465",
+        "type": "debug",
+        "z": "91b965277fed4a96",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "76df2e8ccb913dba",
+        "type": "debug",
+        "z": "91b965277fed4a96",
+        "name": "debug 18",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f10425727390e8ca",
+        "type": "function",
+        "z": "91b965277fed4a96",
+        "name": "node_map",
+        "func": "// Get current node → MAC table\nlet map = global.get(\"nodeMACMap\") || {};\n\nlet output = \"\";\n\n// Build display string\nfor (let node in map) {\n    output += \"Node \" + node + \" MAC: \" + map[node] + \"\\n\";\n}\n\n// send formatted text\nmsg.payload = output.trim();\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 140,
+        "wires": [
+            [
+                "7b2c388f54d9526b"
+            ]
+        ]
+    },
+    {
+        "id": "7b2c388f54d9526b",
+        "type": "debug",
+        "z": "91b965277fed4a96",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "abdb18383e72c451",
+        "type": "mqtt in",
+        "z": "df2c8544cd1e8c02",
+        "name": "",
+        "topic": "smartplug/from/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 140,
+        "wires": [
+            [
+                "5afb14c257640ade",
+                "734330d8a11fcc24",
+                "afd4352a114b3ff2"
+            ]
+        ]
+    },
+    {
+        "id": "11d1f947b68282d8",
+        "type": "mqtt out",
+        "z": "df2c8544cd1e8c02",
+        "d": true,
+        "name": "",
+        "topic": "painlessMesh/to/",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 430,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4544b36c6474edca",
+        "type": "inject",
+        "z": "df2c8544cd1e8c02",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":0,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":21}}",
+        "payloadType": "json",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "302ce5c9198a876c"
+            ]
+        ]
+    },
+    {
+        "id": "202b7771e91789ab",
+        "type": "inject",
+        "z": "df2c8544cd1e8c02",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 460,
+        "wires": [
+            [
+                "6e048d973536d17e"
+            ]
+        ]
+    },
+    {
+        "id": "6e048d973536d17e",
+        "type": "exec",
+        "z": "df2c8544cd1e8c02",
+        "command": "python ./metermodbus.py -u",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 420,
+        "y": 440,
+        "wires": [
+            [
+                "8c415d8ecf0df274"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "dbd7a996a68aeaae",
+        "type": "debug",
+        "z": "df2c8544cd1e8c02",
+        "name": "debug 19",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "afd4352a114b3ff2",
+        "type": "function",
+        "z": "df2c8544cd1e8c02",
+        "name": "function 27",
+        "func": "let p = msg.payload;\nnode.log(typeof p);\nmsg.payload = p.power;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c415d8ecf0df274",
+        "type": "python3-function",
+        "z": "df2c8544cd1e8c02",
+        "name": "",
+        "func": "import ast\nimport re\n\nraw = msg['payload']\n\n# 1. Regex to extract datetime parts and replace with a string \"YYYY-MM-DDTHH:MM:SS.ssssss\"\ndef dt_replace(match):\n    # Groups: year, month, day, hour, minute, second, microsecond\n    parts = match.groups()\n    iso_str = f'\"{int(parts[0]):04d}-{int(parts[1]):02d}-{int(parts[2]):02d}T{int(parts[3]):02d}:{int(parts[4]):02d}:{int(parts[5]):02d}.{int(parts[6]):06d}\"'\n    return iso_str\n\n# Substitute datetime.datetime(...) with ISO format string in double quotes\npattern = r\"datetime\\.datetime\\((\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+)\\)\"\nraw2 = re.sub(pattern, dt_replace, raw)\n\ntry:\n    data = ast.literal_eval(raw2)\nexcept Exception as e:\n    msg['payload'] = {\"error\": f\"literal_eval failed: {str(e)}\", \"input\": raw2}\n    msg['topic'] = \"db\"\n    return msg\n\n# TimeStamp is now a string\nts_str = data.get('TimeStamp', '')\n\nnames = data.get('Name', [])\nvalues = data.get('Value', [])\n\ndef get_val(label):\n    try:\n        idx = names.index(label)\n        return values[idx]\n    except (ValueError, IndexError):\n        return None\n\nresult = {\n    \"timestamp\": ts_str,\n    \"voltage\": get_val('voltage'),\n    \"current\": get_val('cur'),\n    \"power\": get_val('power')\n}\n\nmsg['payload'] = result\nmsg['topic'] = \"db\"\nreturn msg\n\n",
+        "outputs": 1,
+        "x": 510,
+        "y": 380,
+        "wires": [
+            [
+                "3cfef5598d1251ca"
+            ]
+        ]
+    },
+    {
+        "id": "b9dc900cec6e0d60",
+        "type": "csv",
+        "z": "df2c8544cd1e8c02",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 830,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4791868789e7c2cb",
+        "type": "file",
+        "z": "df2c8544cd1e8c02",
+        "name": "Power Measurement",
+        "filename": "/home/admin/log.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 920,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3cfef5598d1251ca",
+        "type": "join",
+        "z": "df2c8544cd1e8c02",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 730,
+        "y": 400,
+        "wires": [
+            [
+                "dbd7a996a68aeaae",
+                "cb8e27609990b7fa"
+            ]
+        ]
+    },
+    {
+        "id": "cb8e27609990b7fa",
+        "type": "function",
+        "z": "df2c8544cd1e8c02",
+        "name": "function 29",
+        "func": "const plug = msg.payload.plug;\nconst db = msg.payload.db;\n\nconst row = [\n    db.timestamp,\n    plug.voltage,\n    plug.current,\n    plug.power,\n    db.voltage,\n    db.current,\n    db.power\n];\n\nmsg.payload = row.join(\",\") + \"\\n\";  // One line of CSV\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 960,
+        "y": 360,
+        "wires": [
+            [
+                "4791868789e7c2cb"
+            ]
+        ]
+    },
+    {
+        "id": "302ce5c9198a876c",
+        "type": "function",
+        "z": "df2c8544cd1e8c02",
+        "d": true,
+        "name": "function 30",
+        "func": "var nodeID = global.get(\"nodeid1\");   \nmsg.topic = \"painlessMesh/to/\" + nodeID;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 300,
+        "wires": [
+            [
+                "11d1f947b68282d8"
+            ]
+        ]
+    },
+    {
+        "id": "5afb14c257640ade",
+        "type": "debug",
+        "z": "df2c8544cd1e8c02",
+        "name": "debug 20",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 310,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "734330d8a11fcc24",
+        "type": "function",
+        "z": "df2c8544cd1e8c02",
+        "name": "Parse + MAC",
+        "func": "// Extract values from incoming JSON\nlet logicalNode = msg.payload.node;\nlet nodeID = msg.payload.NodeID;\n\n// Safety check\nif (!logicalNode || !nodeID) {\n    node.warn(\"Node or NodeID missing\");\n    return null;\n}\n\n// Get existing mapping (or create new)\nlet nodeMap = global.get(\"nodeMap\") || {};\n\n// Store / update mapping\nnodeMap[logicalNode] = nodeID;\n\n// Save globally\nglobal.set(\"nodeMap\", nodeMap);\n\n// Attach identity to message for downstream nodes\nmsg.logicalNode = logicalNode;\nmsg.nodeID = nodeID;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 200,
+        "wires": [
+            [
+                "95e80345b3ec487e",
+                "2bc1d6370b373382"
+            ]
+        ]
+    },
+    {
+        "id": "ca9d4c5968ecad72",
+        "type": "inject",
+        "z": "df2c8544cd1e8c02",
+        "name": "Assign Node1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 520,
+        "wires": [
+            [
+                "1cde3f8d50e3061c"
+            ]
+        ]
+    },
+    {
+        "id": "1cde3f8d50e3061c",
+        "type": "function",
+        "z": "df2c8544cd1e8c02",
+        "name": "node assignment debug",
+        "func": "msg.payload = global.get(\"nodeMACMap\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 520,
+        "wires": [
+            [
+                "5ad20264b3d961ed"
+            ]
+        ]
+    },
+    {
+        "id": "95e80345b3ec487e",
+        "type": "debug",
+        "z": "df2c8544cd1e8c02",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "5ad20264b3d961ed",
+        "type": "debug",
+        "z": "df2c8544cd1e8c02",
+        "name": "debug 22",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "2bc1d6370b373382",
+        "type": "function",
+        "z": "df2c8544cd1e8c02",
+        "name": "node_map",
+        "func": "// Get current node → MAC table\nlet map = global.get(\"nodeMap\") || {};\n\n\nlet output = \"\";\n\n// Build display string\nfor (let node in map) {\n    output += \"Node \" + node + \" MAC: \" + map[node] + \"\\n\";\n}\n\n// send formatted text\nmsg.payload = output.trim();\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 180,
+        "wires": [
+            [
+                "d40b6c8f0871d2d7"
+            ]
+        ]
+    },
+    {
+        "id": "d40b6c8f0871d2d7",
+        "type": "debug",
+        "z": "df2c8544cd1e8c02",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "20f92d436e4c6b4a",
+        "type": "debug",
+        "z": "7ae2f0cac87ded1d",
+        "name": "debug 24",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9785d970e50f896c",
+        "type": "mqtt in",
+        "z": "7ae2f0cac87ded1d",
+        "name": "",
+        "topic": "painlessMesh/from/#",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "110fcdbdd211693c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 100,
+        "wires": [
+            [
+                "18c41bb5a707b75e",
+                "60590bf6a6d1e118",
+                "20f92d436e4c6b4a",
+                "374ce63a168a7bc0"
+            ]
+        ]
+    },
+    {
+        "id": "163a02460790a93e",
+        "type": "mqtt out",
+        "z": "7ae2f0cac87ded1d",
+        "name": "",
+        "topic": "painlessMesh/to/3664174173",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "110fcdbdd211693c",
+        "x": 320,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "28b733859890b80b",
+        "type": "inject",
+        "z": "7ae2f0cac87ded1d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"state\":1,\"ir\":1,\"AC_status\":{\"power\":1,\"mode\":1,\"temp\":23}}",
+        "payloadType": "json",
+        "x": 90,
+        "y": 260,
+        "wires": [
+            [
+                "163a02460790a93e"
+            ]
+        ]
+    },
+    {
+        "id": "65a626275ad22b8e",
+        "type": "inject",
+        "z": "7ae2f0cac87ded1d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 420,
+        "wires": [
+            [
+                "a09c2603213bfb95"
+            ]
+        ]
+    },
+    {
+        "id": "a09c2603213bfb95",
+        "type": "exec",
+        "z": "7ae2f0cac87ded1d",
+        "command": "python ./metermodbus.py -u",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 400,
+        "y": 400,
+        "wires": [
+            [
+                "c37ae64a50eeb5de"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "76c7687b7212d900",
+        "type": "debug",
+        "z": "7ae2f0cac87ded1d",
+        "name": "debug 25",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "18c41bb5a707b75e",
+        "type": "function",
+        "z": "7ae2f0cac87ded1d",
+        "name": "function 31",
+        "func": "let p = msg.payload;\nnode.log(typeof p);\nmsg.payload = p.power;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c37ae64a50eeb5de",
+        "type": "python3-function",
+        "z": "7ae2f0cac87ded1d",
+        "name": "",
+        "func": "import ast\nimport re\n\nraw = msg['payload']\n\n# 1. Regex to extract datetime parts and replace with a string \"YYYY-MM-DDTHH:MM:SS.ssssss\"\ndef dt_replace(match):\n    # Groups: year, month, day, hour, minute, second, microsecond\n    parts = match.groups()\n    iso_str = f'\"{int(parts[0]):04d}-{int(parts[1]):02d}-{int(parts[2]):02d}T{int(parts[3]):02d}:{int(parts[4]):02d}:{int(parts[5]):02d}.{int(parts[6]):06d}\"'\n    return iso_str\n\n# Substitute datetime.datetime(...) with ISO format string in double quotes\npattern = r\"datetime\\.datetime\\((\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+), (\\d+)\\)\"\nraw2 = re.sub(pattern, dt_replace, raw)\n\ntry:\n    data = ast.literal_eval(raw2)\nexcept Exception as e:\n    msg['payload'] = {\"error\": f\"literal_eval failed: {str(e)}\", \"input\": raw2}\n    msg['topic'] = \"db\"\n    return msg\n\n# TimeStamp is now a string\nts_str = data.get('TimeStamp', '')\n\nnames = data.get('Name', [])\nvalues = data.get('Value', [])\n\ndef get_val(label):\n    try:\n        idx = names.index(label)\n        return values[idx]\n    except (ValueError, IndexError):\n        return None\n\nresult = {\n    \"timestamp\": ts_str,\n    \"voltage\": get_val('voltage'),\n    \"current\": get_val('cur'),\n    \"power\": get_val('power')\n}\n\nmsg['payload'] = result\nmsg['topic'] = \"db\"\nreturn msg\n\n",
+        "outputs": 1,
+        "x": 490,
+        "y": 340,
+        "wires": [
+            [
+                "747763616ae00d88"
+            ]
+        ]
+    },
+    {
+        "id": "6577eb8b1b46de2e",
+        "type": "function",
+        "z": "7ae2f0cac87ded1d",
+        "name": "function 32",
+        "func": "let p = msg.payload;\nmsg.payload = {\n    timestamp: p.timestamp,\n    voltage: p.voltage || \"\",\n    current: p.current || \"\",\n    pf: p.pf || \"\",\n    power: \"\",\n    source: \"usb\"\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "60590bf6a6d1e118",
+        "type": "function",
+        "z": "7ae2f0cac87ded1d",
+        "name": "function 33",
+        "func": "msg.topic = \"plug\";\nlet p = msg.payload;\nmsg.payload = {\n    voltage: p.volt || \"\",\n    current: p.amps || \"\",\n    power: p.power || \"\",\n    source: \"mqtt\"\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 120,
+        "wires": [
+            [
+                "747763616ae00d88"
+            ]
+        ]
+    },
+    {
+        "id": "9944c7f35ca89346",
+        "type": "csv",
+        "z": "7ae2f0cac87ded1d",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 730,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7b0283eeca0446bf",
+        "type": "file",
+        "z": "7ae2f0cac87ded1d",
+        "name": "Power Measurement",
+        "filename": "/home/admin/log.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 900,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "747763616ae00d88",
+        "type": "join",
+        "z": "7ae2f0cac87ded1d",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": true,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 710,
+        "y": 360,
+        "wires": [
+            [
+                "76c7687b7212d900",
+                "b13b6319c1c40995"
+            ]
+        ]
+    },
+    {
+        "id": "3152c32176037b62",
+        "type": "function",
+        "z": "7ae2f0cac87ded1d",
+        "name": "function 34",
+        "func": "// 'msg.payload' is now an object like { usb: {...}, plug: {...} }\nlet usb = msg.payload.usb || {};\nlet plug = msg.payload.plug || {};\n\nmsg.payload = {\n    timestamp: usb.timestamp || plug.timestamp || new Date().toISOString(),\n    usb_voltage: usb.voltage || \"\",\n    usb_current: usb.current || \"\",\n    usb_power: usb.power || \"\",\n    plug_voltage: plug.voltage || \"\",\n    plug_current: plug.current || \"\",\n    plug_power: plug.power || \"\",\n        // You can add more as needed\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b13b6319c1c40995",
+        "type": "function",
+        "z": "7ae2f0cac87ded1d",
+        "name": "function 35",
+        "func": "const plug = msg.payload.plug;\nconst db = msg.payload.db;\n\nconst row = [\n    db.timestamp,\n    plug.voltage,\n    plug.current,\n    plug.power,\n    db.voltage,\n    db.current,\n    db.power\n];\n\nmsg.payload = row.join(\",\") + \"\\n\";  // One line of CSV\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 320,
+        "wires": [
+            [
+                "7b0283eeca0446bf"
+            ]
+        ]
+    },
+    {
+        "id": "374ce63a168a7bc0",
+        "type": "function",
+        "z": "7ae2f0cac87ded1d",
+        "name": "Parse + MAC",
+        "func": "// Extract values from incoming JSON\nlet logicalNode = msg.payload.node;\nlet nodeID = msg.payload.NodeID;\n\n// Safety check\nif (!logicalNode || !nodeID) {\n    node.warn(\"Node or NodeID missing\");\n    return null;\n}\n\n// Get existing mapping (or create new)\nlet nodeMap = global.get(\"nodeMap\") || {};\n\n// Store / update mapping\nnodeMap[logicalNode] = nodeID;\n\n// Save globally\nglobal.set(\"nodeMap\", nodeMap);\n\n// Attach identity to message for downstream nodes\nmsg.logicalNode = logicalNode;\nmsg.nodeID = nodeID;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 180,
+        "wires": [
+            [
+                "94d7cd70a7e6505f",
+                "64a439dd1fe16074"
+            ]
+        ]
+    },
+    {
+        "id": "94d7cd70a7e6505f",
+        "type": "function",
+        "z": "7ae2f0cac87ded1d",
+        "name": "node_map",
+        "func": "// Get current node → MAC table\nlet map = global.get(\"nodeMap\") || {};\n\n\nlet output = \"\";\n\n// Build display string\nfor (let node in map) {\n    output += \"Node \" + node + \" ID: \" + map[node] + \"\\n\";\n}\n\n// send formatted text\nmsg.payload = output.trim();\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 486.1999816894531,
+        "y": 178.1999969482422,
+        "wires": [
+            [
+                "0c3d8acd9dd9f39c"
+            ]
+        ]
+    },
+    {
+        "id": "0c3d8acd9dd9f39c",
+        "type": "debug",
+        "z": "7ae2f0cac87ded1d",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "64a439dd1fe16074",
+        "type": "debug",
+        "z": "7ae2f0cac87ded1d",
+        "name": "debug 27",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 220,
+        "wires": []
+    }
+]
